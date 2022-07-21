@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13pt;
+    background-color: rgba(223, 220, 218, 0.686);
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background: rgba(25, 40, 100, 0.512);
+    width: 200px; 
+    border-radius: 100px;
+    cursor: pointer;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1) 3s;
+    color: rgba(223, 220, 218, 0.686);
+}
+
+.Hover {
+    transform: scale(2);
+}
